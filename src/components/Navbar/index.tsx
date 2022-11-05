@@ -23,8 +23,8 @@ const Navbar = ({ toggleSidebar }: Props) => {
         <div className='navbar__hamburger' onClick={toggleSidebar}>
           <CgMenuLeft />
         </div>
-
-        <img src='/assets/logo.svg' alt='lendsqr logo' />
+        {/* <img src='/assets/logo.svg' alt='lendsqr logo' /> */}
+        <div className='login__logo'>LOGO</div>
       </div>
 
       <form className='navbar__search' data-testid='search-user'>

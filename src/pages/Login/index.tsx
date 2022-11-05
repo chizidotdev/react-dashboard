@@ -9,7 +9,8 @@ const Login = () => {
   return (
     <main className='login container'>
       <header className='login__logo'>
-        <img src='/assets/logo.svg' alt='lendsqr logo' />
+        {/* <img src='/assets/logo.svg' alt='lendsqr logo' /> */}
+        LOGO
       </header>
 
       <section className='login__body'>

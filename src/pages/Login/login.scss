@@ -11,6 +11,12 @@
   flex-direction: column;
   gap: 10vh;
 
+  &__logo {
+    color: root.$color-blue;
+    font-size: root.$font-xl;
+    font-weight: 700;
+  }
+
   &__body {
     margin-top: 1%;
     display: grid;
